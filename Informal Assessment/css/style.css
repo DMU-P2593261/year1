@@ -27,6 +27,6 @@ video {
 }
 
 
-audio {
+audio controls {
   max-width: 100%;
 }
