@@ -22,5 +22,8 @@ img {
 }
 
 video {
-  max-width: 100%;
+   border: 5px groove darkblue;
+   padding: 30px;
+   width: auto;
+   height: auto;
 }
