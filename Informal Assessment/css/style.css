@@ -26,6 +26,6 @@ audio {
   max-width: 100%;
 }
 
-p {
-  font-family: Helvetica;
+p.a {
+  font-family: "Times New Roman", Times, serif;
 }
