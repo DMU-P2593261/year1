@@ -1,0 +1,129 @@
+/* GLOBAL BACKGROUND STYLE RULES */
+body {
+  background-image: url('../img/background-1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+/* GLOBAL PARAGRAPH STYLE RULES */
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* GLOBAL HEADER STYLE RULES */
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  border: 5px solid #030A8C;
+  background-color: #010326;
+  padding: 10px
+}
+
+
+/* GLOBAL LINK STYLE RULES */
+a:link, a:visited {
+  color: black;
+  background-color: pink;
+  position: relative; top:-5px;
+  padding: 10px;
+  border-radius: 5% 5% 5% 5%;
+  margin: 5px;
+}
+
+
+/* GLOBAL AUDIO STYLE RULES */
+.castAudio {
+  width: 100%;
+}
+
+
+/* MENU HOVER STYLE RULES */
+a:hover, a:active {
+  color: white;
+  background-color: indigo;
+}
+
+
+/* GLOBAL FOOTER STYLE RULES */
+.footer {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  position: relative; top:10px;
+  color: white;
+  background-color: #010326;
+  border: 5px solid #030A8C;
+  padding: 30px
+}
+
+
+.page1 {
+  background-color: #010326;
+  border: 5px solid #030A8C;
+  position: relative; top:10px;
+}
+
+
+/* SYNOPSIS STYLE RULES */
+.synopsis {
+  color: pink;
+  text-align: justify;
+  position: relative; top:10px;
+  padding: 10px;
+}
+
+
+/* TRAILER STYLE RULES */
+video {
+  width: 100%;
+}
+
+
+/* CAST MEMBER NAME STYLE RULES */
+.casting {
+  position: relative; top:10px;
+  color: white;
+  border: 5px solid #030A8C;
+  background-color: #010326;
+  padding: 10px
+}
+
+
+/* CAST NAME STYLE RULES */
+.castNames {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative; top:10px;
+}
+
+
+/* CAST IMAGE 1 */
+img {
+  width: 50%;
+  border-radius: 5% 0% 5% 0%;
+  float:left;
+  margin: 10px;
+}
+
+
+/* CAST PARAGRAPH 1 */
+.castParagraphs {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: pink;
+  text-align: inherit;
+}
+
+
+/* PAGE 3 */
+.page3 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  position: relative; top:10px;
+  color: white;
+  background-color: #010326;
+  border: 5px solid #030A8C;
+  padding: 15px
+}
