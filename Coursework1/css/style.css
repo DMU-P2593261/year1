@@ -146,6 +146,8 @@ I also specifically set the font size to 20px as it matched the style best in my
 The text align was set to inherit so it decides which is the best way for the text to be displayed.
 I was considering using "justify" but it made the text look too spread apart with a lot of gaps.
 */
+
+
 /* CAST PARAGRAPHS */
 .castParagraphs {
   font-family: Arial, Helvetica, sans-serif;
