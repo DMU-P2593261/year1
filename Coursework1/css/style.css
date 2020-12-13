@@ -1,0 +1,155 @@
+/*
+For the background style rules I found an image that matched the colour theme of the film and set that as the background image.
+I also set the background to fix and set the size to 100%. As the image is one big gradient, it doesn't look bad if stretched.
+*/
+/* GLOBAL BACKGROUND STYLE RULES */
+body {
+  background-image: url('../img/background-1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+
+/*
+Some of my style rules are class specific but some of them are global and are used across all pages.
+To keep the font the same across all pages I styled paragraph elements globally.
+My choice of font were ones that I thought were more rounded and modern compared to the default HTML font.
+*/
+/* GLOBAL PARAGRAPH STYLE RULES */
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*
+As mentioned in some previous comments on page1 or page2 I kept the style choices of the header and the footer the same to sandwich the body.
+I used the same font as the rest of the website and changed the border and background colour to match everything else used.
+The colours I used accross my page were directly taken from a ready player one trailer photo using Adobe colour which means the website fits the film's colours directly.
+The title text was centered and I also used 10px of padding to make everything look more clean and less squashed.
+*/
+/* HEADER AND FOOTER STYLE RULES */
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  border: 5px solid #030A8C;
+  background-color: #010326;
+  padding: 10px
+}
+
+
+/*
+To create my website's menu I decided a button approach would be a relevant design choice.
+To create a hover animation I added two sets of style rules. One for a general link and one for when the link is hovered over with the mouse or clicked.
+Again like the rest of the page I used relevant colours and added padding and margin where necessary to fit the general aesthetic of the film.
+*/
+/* LINK STYLE RULES */
+a:link, a:visited {
+  color: black;
+  background-color: pink;
+  position: relative; top:-5px;
+  padding: 10px;
+  border-radius: 5% 5% 5% 5%;
+  margin: 5px;
+}
+
+
+/* LINK HOVER STYLE RULES */
+a:hover, a:active {
+  color: white;
+  background-color: indigo;
+}
+
+
+/*
+Not many style rules were applied to the audio but I did change the width to 100% as that way it acts as a separator for the three cast profiles.
+*/
+/* GLOBAL AUDIO STYLE RULES */
+.castAudio {
+  width: 100%;
+}
+
+
+/*
+The style rules for page one are pretty simple. I applied the background colour and border for the entire page.
+I also changed the relatoive position from the top of the page to make sure it doesn't get squished on any devices.
+*/
+.page1 {
+  background-color: #010326;
+  border: 5px solid #030A8C;
+  position: relative; top:10px;
+}
+
+
+/*
+For the synopsis I changed the text colour to something a little less bright as the standard white was a little too much.
+Like the rest of the page I also added some padding to make everythng look less squished.
+*/
+/* SYNOPSIS STYLE RULES */
+.synopsis {
+  color: pink;
+  text-align: justify;
+  position: relative; top:10px;
+  padding: 10px;
+}
+
+
+/*
+The trailer I set to a width of 100%. This allows it to always scale to the correct size on any device instead of being way too large.
+*/
+/* TRAILER STYLE RULES */
+video {
+  width: 100%;
+}
+
+
+/*
+The casting page has the same rules essentially as the other page.
+I used the same background and border colours to fit the theme correctly and to sync the design.
+*/
+/* CAST PAGE STYLE RULES */
+.casting {
+  position: relative; top:10px;
+  color: white;
+  border: 5px solid #030A8C;
+  background-color: #010326;
+  padding: 10px
+}
+
+
+/* CAST NAME STYLE RULES */
+.castNames {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative; top:10px;
+}
+
+
+/*
+As the only images on my website were on the casting page I styled the global img element.
+I floated the images to the left to allow the paragraph text to wrap around it as the criteria layout requires text next to the images and not underneath.
+I also gave the images a small 10px margin to provide some space between the text.
+*/
+/* CAST IMAGE 1 */
+img {
+  width: 50%;
+  border-radius: 5% 0% 5% 0%;
+  float:left;
+  margin: 10px;
+}
+
+
+/*
+To match the other text such as the synopsis on the home page I designed the paragraph text to be pink as well.
+I also specifically set the font size to 20px as it matched the style best in my opinion.
+The text align was set to inherit so it decides which is the best way for the text to be displayed.
+I was considering using "justify" but it made the text look too spread apart with a lot of gaps.
+*/
+/* CAST PARAGRAPHS */
+.castParagraphs {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: pink;
+  text-align: inherit;
+}
