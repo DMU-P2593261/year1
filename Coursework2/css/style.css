@@ -87,7 +87,7 @@ nav {
     flex-direction: column; /*changes the flex direction to a column to enable the links to stack on top of eachother*/
     align-items: center; /*positions the nav links within the center of the background box*/
     width: 50%; /*sets the width of the background box to 50% of the viewport*/
-    transform: translateX(200%); /**/
+    transform: translateX(100%); /**/
     transition: transform 0.5s ease-in; /**/
   }
   .nav-links li {
