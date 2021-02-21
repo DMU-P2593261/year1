@@ -1,3 +1,6 @@
+/*///////////*//*///////////*//*///////////*/
+/*///////////*//*GLOBAL CSS*//*///////////*/
+/*//////////*//*///////////*//*///////////*/
 * {
   margin: 0px; /*removes all default margin rules*/
   padding: 0px; /*removes all default padding rules*/
@@ -13,7 +16,33 @@ a:hover { /*colour of nav links after being highlighted by a cursor*/
   color: black;
 }
 
+/*IMAGE CSS*/
+img {
+  max-width: 100%;
+}
 
+
+/*VIDEO CSS*/
+video {
+  width: 100%;
+  z-index: 0;
+  padding: 10px;
+}
+
+/*FOOTER CSS*/
+footer {
+  z-index: 1;
+}
+
+html {
+  scroll-behavior: smooth; /*allows all automatic scrolling to be smooth instead of instant therefore creating a less flat feel to the page and making the site feel more natural and smooth*/
+}
+
+
+
+/*////////////*//*///////////*//*///////////*/
+/*///////////*//*MENU BAR CSS*//*///////////*/
+/*///////////*//*///////////*//*///////////*/
 nav {
   display: flex; /*allows menu items to display next to eachother*/
   justify-content: space-around; /*provide more spacing between menu items*/
@@ -21,6 +50,10 @@ nav {
   min-height: 8vh; /*minimum height from the top of the page measured in viewport height */
   background-color: #5E9FF2; /*changes the background colour of the navigation bar*/
   font-family: 'Poppins', sans-serif; /*calls an external font from fonts.google.com*/
+  max-width: 100%;
+  top: 0;
+  position: sticky; /*sticks the menu to the top of the page and follows the user as they scroll*/
+  z-index: 1; /*changes the layer that the menu is on allowing video controls and other elements to slide underneath without showing through*/
 }
 
 
@@ -126,4 +159,309 @@ nav {
 }
 .toggle .line3{
   transform: rotate(45deg) translate(-5px,-6px); /**/
+}
+
+
+
+/*////////////*//*///////////*//*///////////*/
+/*///////////*//*HOMEPAGE CSS*//*///////////*/
+/*///////////*//*///////////*//*///////////*/
+
+/*HOME TITLE*/
+.homeTitle {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+/*HOME PARAGRAPH 1*/
+.homeParagraph1 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+
+/*HOME PARAGRAPH 2*/
+.homeParagraph2 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+
+/*////////////*//*///////////*//*///////////*/
+/*///////////*//*TROPICANA CSS*//*///////////*/
+/*///////////*//*///////////*//*///////////*/
+
+#tropicanatitle1 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+}
+
+.tropicanaparagraph1 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+.tropicana-anchors {
+  list-style: none;
+  text-decoration: none;
+  text-align: left;
+  background-color: CornflowerBlue;
+  color: yellow;
+  font-family: 'Poppins', sans-serif;
+  padding: 15px;
+  font-size: 15px;
+}
+
+#tropicanatitle2 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+  scroll-behavior: smooth;
+}
+
+.tropicanaparagraph2 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+.tropicanaimage1 {
+  max-width: 100%;
+  padding: 10px;
+}
+
+#tropicanatitle3 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+  scroll-behavior: smooth;
+}
+
+.tropicanaparagraph3 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+.tropicanatitle4 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+  scroll-behavior: smooth;
+}
+
+.tropicanaparagraph4 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+.tropicanaimage2 {
+  max-width: 100%;
+  padding: 10px;
+}
+
+.tropicanatitle5 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+  scroll-behavior: smooth;
+}
+
+.tropicanaparagraph5 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+.tropicanaimage3 {
+  max-width: 100%;
+  padding: 10px;
+}
+
+.tropicanatitle6 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+  scroll-behavior: smooth;
+}
+
+.tropicanaparagraph6 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+.tropicanaimage3 {
+  max-width: 100%;
+  padding: 10px;
+}
+
+.tropicanatitle7 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+  scroll-behavior: smooth;
+}
+
+.tropicanaparagraph7 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+.tropicanaimage4 {
+  max-width: 100%;
+  padding: 10px;
+}
+
+.tropicanatitle8 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+  scroll-behavior: smooth;
+}
+
+.tropicanaparagraph8 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+.tropicanaimage5 {
+  max-width: 100%;
+  padding: 10px;
+}
+
+.tropicanatitle9 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+  scroll-behavior: smooth;
+}
+
+.tropicanaparagraph9 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+.tropicanaimage6 {
+  max-width: 100%;
+  padding: 10px;
+}
+
+.tropicanaimage7 {
+  max-width: 100%;
+  padding: 10px;
+}
+
+#tropicanatitle10 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+  scroll-behavior: smooth;
+}
+
+.tropicanaparagraph10 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+#tropicanatitle11 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+  scroll-behavior: smooth;
+}
+
+.tropicanaparagraph11 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+.tropicanaimage8 {
+  max-width: 100%;
+  padding: 10px;
+}
+
+/*////////////*//*///////////*//*///////////*/
+/*///////////*//*CONTACT CSS*//*///////////*/
+/*///////////*//*///////////*//*///////////*/
+
+/*CONTACT PARAGRAPH 1*/
+.contactParagraph1 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+.socialbuttons {
+  text-align: left;
+  padding: 10px;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background-image: linear-gradient(#4139e0,#d82452,#f06c2f,#f8cb60);
+  color: white;
+  width: 55px;
+  border-radius: 50%;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  width: 55px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #1778F2;
+  color: white;
+  width: 55px;
+  border-radius: 50%;
+}
+
+
+/*////////////*//*///////////*//*///////////*/
+/*///////////*//*FOOTER CSS*//*///////////*/
+/*///////////*//*///////////*//*///////////*/
+.footerText {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: center;
+  background-color: DodgerBlue;
+  min-height: 8vh; /*minimum height from the top of the page measured in viewport height */
+  z-index: 0;
+  background-color: #5E9FF2;
+}
+
+
+/*FOOTER LINKS*/
+.footerLinks {
+  font-size: 12px;
+  z-index: 0;
 }
