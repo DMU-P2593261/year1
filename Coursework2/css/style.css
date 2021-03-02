@@ -192,7 +192,116 @@ nav {
   text-align: justify;
 }
 
+/*////////////*//*///////////*//*///////////*/
+/*////////*//*ANIMAL CROSSING CSS*//*///////*/
+/*///////////*//*///////////*//*///////////*/
 
+#acnh-anchors {
+  list-style: none;
+  text-align: left;
+  background-color: CornflowerBlue;
+  font-family: 'Poppins', sans-serif;
+  padding: 15px;
+  font-size: 15px;
+}
+
+/*ACNH TITLE*/
+#acnhtitle {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+}
+
+/*ACNH SUBTITLE*/
+#acnhsubtitle1 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+}
+
+
+/*ACNH PARAGRAPH*/
+.acnhparagraph1 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+/*ACNH SUBTITLE*/
+#acnhsubtitle2 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+}
+
+/*ACNH SUBTITLE*/
+#acnhsubtitle2 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+}
+
+
+/*ACNH PARAGRAPH*/
+.acnhparagraph2 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+/*ACNH SUBTITLE*/
+#acnhsubtitle3 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+}
+
+
+/*ACNH PARAGRAPH*/
+.acnhparagraph3 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+.newhorizonsimage {
+  max-width: 100%;
+  padding: 10px;
+}
+
+/*ACNH SUBTITLE*/
+#acnhsubtitle4 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+}
+
+
+/*ACNH PARAGRAPH*/
+.acnhparagraph4 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+/*ACNH SUBTITLE*/
+#acnhsubtitle5 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+}
+
+
+/*ACNH PARAGRAPH*/
+.acnhparagraph5 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+.animalcrossingtitles {
+  color: Magenta;
+}
 /*////////////*//*///////////*//*///////////*/
 /*///////////*//*TROPICANA CSS*//*///////////*/
 /*///////////*//*///////////*//*///////////*/
@@ -515,6 +624,45 @@ nav {
   border-radius: 50%;
 }
 
+/*////////////*//*///////////*//*///////////*/
+/*///////////*//*ABOUT CSS*//*///////////*/
+/*///////////*//*///////////*//*///////////*/
+
+.abouttitle {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+}
+
+.aboutparagraph1 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+.aboutparagraph2 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+.aboutimage1 {
+  padding: 10px;
+}
+
+.aboutimage2 {
+  padding: 10px;
+}
+
+/*////////////*//*///////////*//*///////////*/
+/*///////////*//*TERMS OF SERVICE CSS*//*///////////*/
+/*///////////*//*///////////*//*///////////*/
+
+.terms {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
 
 /*////////////*//*///////////*//*///////////*/
 /*///////////*//*FOOTER CSS*//*///////////*/
