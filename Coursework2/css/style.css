@@ -1,6 +1,13 @@
 /*///////////*//*///////////*//*///////////*/
 /*///////////*//*GLOBAL CSS*//*///////////*/
 /*//////////*//*///////////*//*///////////*/
+
+/*
+
+
+
+*/
+
 * {
   margin: 0px; /*removes all default margin rules*/
   padding: 0px; /*removes all default padding rules*/
@@ -577,6 +584,24 @@ nav {
 /*///////////*//*CONTACT CSS*//*///////////*/
 /*///////////*//*///////////*//*///////////*/
 
+#contacttitle {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+}
+
+.contactsubtitle {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: left;
+}
+
+.contactparagraphs {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
 /*CONTACT PARAGRAPH 1*/
 .contactParagraph1 {
   font-family: 'Poppins', sans-serif;
@@ -585,10 +610,17 @@ nav {
 }
 
 .socialbuttons {
-  text-align: left;
+  font-family: 'Poppins', sans-serif;
   padding: 10px;
+  text-align: justify;
+  padding: 10px;
+  display: flex;
 }
 
+.socialdescriptions {
+  padding: 10px;
+  font-size: 15px;
+}
 
 .fa {
   padding: 20px;
@@ -604,7 +636,7 @@ nav {
 }
 
 .fa-instagram {
-  background-image: linear-gradient(#4139e0,#d82452,#f06c2f,#f8cb60);
+  background-image: linear-gradient(#4139e0,#d82452,#f06c2f,#f8cb60); /*colours extracted directly from the original instagram logo using photoshop and applied into a linear gradient*/
   color: white;
   width: 55px;
   border-radius: 50%;
